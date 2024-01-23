@@ -1,6 +1,6 @@
 import subprocess, traceback, requests, datetime, shutil, json, os
 
-url_papermc = "https://api.papermc.io/v2/projects/paper/versions/1.19.4/builds/550/downloads/paper-1.19.4-550.jar"
+url_papermc = "https://api.papermc.io/v2/projects/paper/versions/1.19.3/builds/448/downloads/paper-1.19.3-448.jar"
 url_plugins = ["https://github.com/minecraftacted/ManHunt2/releases/download/2.2/manhunt2-2.2.jar"]
 
 def exec_java(dir_name, jar_name, xms : int, xmx : int, java_argument=""):
